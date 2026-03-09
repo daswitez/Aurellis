@@ -77,7 +77,7 @@ export function Capabilities() {
   return (
     <section ref={containerRef} className="relative px-8 md:px-16 lg:px-24 py-40 bg-card overflow-hidden">
       {/* Decorative element (mute-gold glow) */}
-      <div className="absolute top-20 right-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
+      {/* Removed tech glows for a premium look */}
       
       <div className="relative max-w-7xl mx-auto">
         <div className="cap-header space-y-8 mb-32 max-w-3xl opacity-0">

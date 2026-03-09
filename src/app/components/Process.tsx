@@ -101,8 +101,7 @@ export function Process() {
       </div>
 
       {/* Decorative gradient orbs */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none" />
+      {/* Removed tech glows */}
       
       <div className="relative max-w-7xl mx-auto">
         <div className="proc-header opacity-0 space-y-8 mb-32 max-w-3xl">
@@ -126,7 +125,7 @@ export function Process() {
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start py-16 border-b border-border/20 last:border-0 hover:border-accent/30 transition-colors duration-700">
                 {/* Number */}
                 <div className="lg:col-span-2">
-                  <span className="text-7xl font-serif text-accent/30 group-hover:text-accent transition-colors duration-700">
+                  <span className="text-7xl font-serif text-accent/60 group-hover:text-accent transition-colors duration-700">
                     {step.number}
                   </span>
                 </div>

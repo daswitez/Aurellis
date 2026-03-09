@@ -42,8 +42,7 @@ export function CTA() {
           </div>
 
           {/* Decorative elements */}
-          <div className="absolute top-0 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none" />
+          {/* Removed glows for a more premium, structured look */}
 
           {/* Accent border */}
           <div className="absolute inset-0 rounded-[40px] border border-accent/10 pointer-events-none" />

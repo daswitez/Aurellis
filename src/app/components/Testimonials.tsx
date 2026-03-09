@@ -68,8 +68,7 @@ export function Testimonials() {
   return (
     <section ref={containerRef} className="relative px-8 md:px-16 lg:px-24 py-40 bg-gradient-to-b from-background to-card overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute top-40 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-40 right-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none" />
+      {/* Removed tech glows */}
       
       <div className="relative max-w-7xl mx-auto">
         <div className="test-header opacity-0 text-center space-y-8 mb-32 max-w-3xl mx-auto">

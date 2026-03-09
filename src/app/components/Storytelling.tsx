@@ -15,7 +15,7 @@ export function Storytelling() {
 
     const ctx = gsap.context(() => {
       // ── INITIAL STATES ──────────────────────────────────────
-      gsap.set(".sc-s1", { autoAlpha: 0, y: 30 });
+      gsap.set(".sc-s1", { autoAlpha: 1, y: 0 }); // Scene 1 visible initially
       gsap.set(".sc-s2", { autoAlpha: 0 });
       gsap.set(".sc-card", { autoAlpha: 0, y: 50 });
       gsap.set(".sc-s3", { autoAlpha: 0 });
@@ -37,8 +37,7 @@ export function Storytelling() {
         },
       });
 
-      tl.to(".sc-s1", { autoAlpha: 1, y: 0, duration: 2.5, ease: "power2.out" })
-        .to({}, { duration: 5 })
+      tl.to({}, { duration: 2 }) // Brief pause showing Scene 1
         .to(".sc-s1", { autoAlpha: 0, y: -20, duration: 2 })
 
       .to(".sc-s2", { autoAlpha: 1, duration: 1 })

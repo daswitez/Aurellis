@@ -97,9 +97,9 @@ export function ValueProps() {
       <div className="absolute inset-0 bg-gradient-to-b from-card to-background" />
       
       <div className="relative max-w-7xl mx-auto">
-        <div className="vp-header opacity-0 text-center space-y-8 mb-32 max-w-3xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary border border-border/40">
-            <span className="text-xs uppercase tracking-wider text-muted-foreground">Valor medible</span>
+        <div className="vp-header opacity-0 text-center space-y-6 mb-24 max-w-3xl mx-auto">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/50 backdrop-blur-sm border border-border/40 shadow-sm">
+            <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Valor medible</span>
           </div>
           <h2 className="text-5xl md:text-6xl text-foreground tracking-tight">
             Resultados que justifican
@@ -113,14 +113,14 @@ export function ValueProps() {
             const Icon = prop.icon;
             return (
               <div key={prop.title} className="vp-card opacity-0 group relative">
-                <div className="relative p-8 rounded-[20px] bg-gradient-to-br from-card to-background border border-border/40 hover:border-accent/40 transition-all duration-700 hover:-translate-y-1 hover:shadow-xl hover:shadow-accent/5 h-full">
+                <div className="relative p-8 rounded-[20px] bg-card/60 backdrop-blur-xl border border-border/40 hover:border-accent/40 hover:bg-card/80 transition-all duration-700 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(181,164,125,0.08)] h-full">
                   <div className="space-y-6">
                     <div className="w-14 h-14 rounded-2xl bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors duration-500">
                       <Icon className="w-7 h-7 text-accent" strokeWidth={1} />
                     </div>
                     
                     <div className="space-y-3">
-                      <div className="text-3xl font-serif text-accent">
+                      <div className="font-mono text-[10px] uppercase tracking-widest text-accent mb-2">
                         {prop.highlight}
                       </div>
                       <h3 className="text-xl text-foreground font-medium">

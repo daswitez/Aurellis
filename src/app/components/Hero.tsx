@@ -38,21 +38,21 @@ export function Hero() {
 
   return (
     <section ref={containerRef} className="relative min-h-[90vh] flex items-center justify-center px-8 md:px-16 lg:px-24 py-32 overflow-hidden bg-background">
-      {/* Refined texture overlay */}
-      <div className="absolute inset-0 opacity-[0.015]">
+      {/* Tech grid overlay */}
+      <div className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-overlay">
         <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 1px 1px, var(--foreground) 1px, transparent 0)`,
-          backgroundSize: '40px 40px'
+          backgroundImage: `linear-gradient(to right, var(--foreground) 1px, transparent 1px), linear-gradient(to bottom, var(--foreground) 1px, transparent 1px)`,
+          backgroundSize: '48px 48px'
         }} />
       </div>
 
       <div className="relative z-10 max-w-6xl w-full flex flex-col items-center">
         <div className="space-y-16 w-full">
-          {/* Premium badge */}
+          {/* Premium Tech badge */}
           <div className="hero-element flex justify-center opacity-0">
-            <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-border/30 bg-card/50 backdrop-blur-sm">
-              <div className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-              <span className="text-xs uppercase tracking-wider text-muted-foreground">Sistema comercial inteligente</span>
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border/30 bg-card/40 backdrop-blur-md shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+              <div className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse shadow-[0_0_8px_rgba(181,164,125,0.8)]" />
+              <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">Sistema comercial inteligente</span>
             </div>
           </div>
 
@@ -84,18 +84,18 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="hero-element pt-8 pb-16 flex flex-wrap justify-center items-center gap-x-12 gap-y-4 text-sm text-muted-foreground opacity-0">
-            <div className="flex items-center gap-3">
-              <div className="w-2 h-2 rounded-full bg-accent/80" />
-              <span>Prospección curada sin código</span>
+          <div className="hero-element pt-8 pb-16 flex flex-wrap justify-center items-center gap-x-10 gap-y-4 text-xs font-mono text-muted-foreground opacity-0">
+            <div className="flex items-center gap-2.5">
+              <div className="w-1.5 h-1.5 rounded-full bg-accent/60" />
+              <span className="tracking-wide">Prospección curada sin código</span>
             </div>
-            <div className="flex items-center gap-3">
-              <div className="w-2 h-2 rounded-full bg-accent/80" />
-              <span>Contacto B2B hiper-personalizado con IA</span>
+            <div className="flex items-center gap-2.5">
+              <div className="w-1.5 h-1.5 rounded-full bg-accent/60" />
+              <span className="tracking-wide">Contacto hiper-personalizado</span>
             </div>
-            <div className="flex items-center gap-3">
-              <div className="w-2 h-2 rounded-full bg-accent/80" />
-              <span>Gestión de pipeline silenciosa</span>
+            <div className="flex items-center gap-2.5">
+              <div className="w-1.5 h-1.5 rounded-full bg-accent/60" />
+              <span className="tracking-wide">Gestión de pipeline silenciosa</span>
             </div>
           </div>
 

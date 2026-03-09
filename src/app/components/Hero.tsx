@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 export function Hero() {
@@ -75,13 +76,17 @@ export function Hero() {
 
           {/* CTA Buttons */}
           <div className="hero-element flex flex-col sm:flex-row gap-5 justify-center items-center opacity-0">
-            <Button size="lg" className="text-lg group">
-              Comenzar ahora
-              <ArrowRight className="w-5 h-5 transition-transform duration-500 group-hover:translate-x-1" />
-            </Button>
-            <Button size="lg" variant="outline" className="text-lg">
-              Ver demo privada
-            </Button>
+            <Link href="/platform">
+              <Button size="lg" className="text-lg group">
+                Comenzar ahora
+                <ArrowRight className="w-5 h-5 transition-transform duration-500 group-hover:translate-x-1" />
+              </Button>
+            </Link>
+            <Link href="/platform">
+              <Button size="lg" variant="outline" className="text-lg">
+                Ver demo privada
+              </Button>
+            </Link>
           </div>
 
           <div className="hero-element pt-8 pb-16 flex flex-wrap justify-center items-center gap-x-10 gap-y-4 text-xs font-mono text-muted-foreground opacity-0">

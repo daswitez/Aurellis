@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Search, ShieldAlert, FileCheck, Send } from "lucide-react";
+import Link from "next/link";
 
 const steps = [
   {
@@ -300,10 +301,15 @@ export function Process() {
                   {visual}
                 </div>
               ))}
-
             </div>
           </div>
         </div>
+
+        <Link href="/platform" className="inline-block mt-16 sm:mt-24 w-full text-center">
+          <span className="inline-block border-b border-background/30 text-background/80 hover:text-background hover:border-background transition-colors pb-1 text-sm md:text-base font-medium tracking-wide">
+            Explorar el entorno demostrativo
+          </span>
+        </Link>
         
       </div>
     </section>

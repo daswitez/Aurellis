@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 export function CTA() {
@@ -65,13 +66,17 @@ export function CTA() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-              <Button size="lg" className="bg-background text-foreground hover:bg-card">
-                Crear mi cuenta ahora
-              </Button>
+              <Link href="/platform">
+                <Button size="lg" className="bg-background text-foreground hover:bg-card">
+                  Crear mi cuenta ahora
+                </Button>
+              </Link>
               
-              <Button size="lg" variant="outline" className="text-background border-border/50 hover:bg-background/10 hover:text-background">
-                Agendar demo ejecutiva
-              </Button>
+              <Link href="/platform">
+                <Button size="lg" variant="outline" className="text-background border-border/50 hover:bg-background/10 hover:text-background">
+                  Agendar demo ejecutiva
+                </Button>
+              </Link>
             </div>
 
             <div className="pt-12 space-y-6">

@@ -56,12 +56,11 @@ export function CTA() {
               
               <h2 className="text-5xl md:text-6xl lg:text-7xl text-background font-serif leading-[1.1] tracking-tight">
                 Empieza a construir tu
-                sistema comercial hoy
+                máquina comercial hoy
               </h2>
               
               <p className="text-xl md:text-2xl text-muted-foreground/80 leading-relaxed max-w-2xl mx-auto">
-                Únete a profesionales independientes que recuperaron su tiempo y
-                multiplicaron sus oportunidades comerciales.
+                Únete a firmas boutique y profesionales independientes que recuperaron su *deep work* y escalaron sus oportunidades.
               </p>
             </div>
 

@@ -1,6 +1,8 @@
 # Plan de Interfaz y Experiencia de Usuario (UI/UX) - Aurellis
 
-Este plan describe la estrategia para llevar los principios de marca y reglas visuales a la capa de experiencia interactiva de **Aurellis**. Al diseñar para consultores independientes y firmas boutique, la utilidad técnica debe acompañarse del máximo confort cognitivo posible.
+Este plan describe la estrategia para llevar los principios de marca y reglas visuales a la capa de experiencia interactiva de **Aurellis**. Al diseñar para consultores independientes, creativos, desarrolladores y firmas boutique (nuestros principales *Buyer Personas*), la utilidad técnica debe acompañarse del máximo confort cognitivo posible. 
+
+*Nota: Todas las decisiones de interfaz detalladas aquí responden directamente a la **Estrategia de Marketing y Posicionamiento** de la plataforma: vender estatus, tranquilidad financiera y productividad sin fricciones.*
 
 ## 1. Estrategia de Experiencia de Usuario (UX)
 
@@ -20,7 +22,11 @@ No habrá tutores parpadeantes (pop-overs y modales con mascotas corporativas).
 ### 1.4. Flujo "Power User" (Orientado a la Productividad)
 - Inclusión de un menú de comandos global discreto (activable vía "Cmd / Ctrl + K").
 - Atajos para acciones repetitivas (ejemplo: tabular entre prospectos, clasificar rápidamente).
-- Los profesionales prefieren el teclado porque simboliza velocidad y disciplina.
+- Los profesionales prefieren el teclado porque simboliza velocidad y disciplina. *(Especialmente valorado por el segmento de Software Devs y Productores Audiovisuales).*
+
+### 1.5. UX Orientada a la Sensibilidad y Estatus
+- **Para Creativos y Diseñadores:** La plataforma debe operar como un canvas invisible. Cero distracciones. El diseño de Aurellis debe sentirse tan pulcro como sus propios portafolios.
+- **Para Coaches y Consultores:** La validación de acciones (ej. antes de enviar emails) debe reforzar la sensación de "control de daños" para cuidar su reputación corporativa. La UX debe garantizarles que no van a enviar spam.
 
 ---
 
@@ -36,7 +42,11 @@ El objetivo de las micro-interacciones es crear una "calidez intelectual".
 - **Notificaciones silenciadas (Toasts):** Aparecerán con un ligero deslizamiento en la base, usando tonos Muted Gold o Graphite, en vez de interrumpir la vista del centro de trabajo.
 
 ### 2.3. Tipografía como Componente Visual Activo
-Se usará la tipografía Serif (Cormorant Garamond / Instrument Serif) como el ancla principal de atención. Cuando un usuario entre al panel, un titular grande, con mucho aire y en Serif, establecerá inmediatamente el tono, empujando la interfaz técnica más abajo en la jerarquía.
+Se usará la tipografía Serif (Cormorant Garamond / Instrument Serif) como el ancla principal de atención para generar autoridad ("Trust"). Cuando un usuario entre al panel, un titular grande, con mucho aire y en Serif, establecerá inmediatamente el tono, empujando la interfaz técnica más abajo en la jerarquía. 
+
+### 2.4. Integración del Copywriting y SEO
+- **Microcopy:** Todos los estados vacíos y botones deben respetar la "Voz de Marca" (Brand Voice). Nada de urgencias falsas o botones fluorescentes. Tonos asépticos y elegantes.
+- **Semántica Técnica (SEO):** La UI debe respetar un único `<h1>` por vista. La limpieza del DOM (usando Next.js sin dependencias redundantes) garantizará tiempos de carga instantáneos (Core Web Vitals), lo que refuerza la precepción de "Alta Gama" exigida en la estrategia de marketing.
 
 ---
 

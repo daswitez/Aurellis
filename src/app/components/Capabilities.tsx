@@ -84,7 +84,7 @@ export function Capabilities() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary border border-border/40">
             <span className="text-xs uppercase tracking-wider text-muted-foreground">Capacidades principales</span>
           </div>
-          <h2 className="text-5xl md:text-6xl text-foreground tracking-tight">
+          <h2 className="text-5xl md:text-6xl text-foreground font-serif tracking-tight">
             Tu equipo comercial
             <br />
             que nunca duerme
@@ -101,8 +101,10 @@ export function Capabilities() {
             return (
               <div
                 key={capability.title}
-                className="cap-card opacity-0 group relative p-10 lg:p-12 rounded-[20px] border border-border/40 bg-background/50 hover:bg-card hover:border-accent/30 transition-all duration-700 hover:-translate-y-1 hover:shadow-xl hover:shadow-accent/5"
+                className="cap-card opacity-0 group relative p-10 lg:p-12 rounded-[24px] border border-border/30 bg-background/40 backdrop-blur-md shadow-sm hover:bg-background/80 hover:border-border/60 transition-all duration-500 hover:-translate-y-1 hover:shadow-lg overflow-hidden"
               >
+                {/* Subtle top light reflection for tangible feel */}
+                <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-foreground/10 to-transparent opacity-50 group-hover:via-accent/40 transition-all duration-500" />
                 {/* Subtle gradient on hover */}
                 <div className="absolute inset-0 rounded-[20px] shadow-sm bg-gradient-to-br from-accent/0 to-accent/0 group-hover:from-accent/5 group-hover:to-transparent transition-all duration-700 pointer-events-none" />
                 

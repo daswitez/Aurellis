@@ -6,28 +6,28 @@ import { Button } from "./ui/button";
 
 const valueProps = [
   {
-    icon: TrendingUp,
-    title: "ROI comprobado",
-    description: "Promedio de 3.4x retorno en primeros 90 días",
-    highlight: "3.4x ROI"
-  },
-  {
     icon: Clock,
-    title: "Tiempo recuperado",
-    description: "15+ horas semanales de prospección automatizada",
-    highlight: "15h/semana"
+    title: "El Motor Silencioso",
+    description: "La prospección funciona de fondo. Crea sin interrupciones y asiste a reuniones ya agendadas.",
+    highlight: "Deep Work"
   },
   {
     icon: Target,
-    title: "Precisión superior",
-    description: "92% de precisión en identificación de prospectos",
-    highlight: "92% precisión"
+    title: "Prestigio Comercial",
+    description: "Prospección curada que protege tu marca personal. Acercamiento B2B hiper-personalizado con fricción humana.",
+    highlight: "Cero Spam"
   },
   {
     icon: Zap,
-    title: "Velocidad ejecutiva",
-    description: "Pipeline operativo en menos de 5 minutos",
-    highlight: "<5 minutos"
+    title: "Transición Post-Venta",
+    description: "Una experiencia de onboarding impecable. Acuerdos y documentos con la estética de una firma premium.",
+    highlight: "Estandarización"
+  },
+  {
+    icon: TrendingUp,
+    title: "Infraestructura Escalable",
+    description: "Un sistema que sostiene tu ritmo. Pasa de un modelo dependiente del esfuerzo manual a un pipeline predecible.",
+    highlight: "Control Absoluto"
   }
 ];
 
@@ -141,16 +141,16 @@ export function ValueProps() {
         <div className="vp-bottom opacity-0 mt-32 p-12 rounded-[24px] bg-foreground text-center">
           <div className="max-w-4xl mx-auto space-y-8">
             <h3 className="text-3xl md:text-4xl font-serif text-background">
-              Invierte en tu infraestructura comercial, no en tu tiempo
+              No eres un vendedor, eres un creador de valor
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Mientras tus competidores dedican 20+ horas semanales a buscar clientes manualmente,
-              tú tendrás un sistema trabajando 24/7 que identifica, cualifica y nutre prospectos
-              de manera continua y sistemática.
+              Deja de pensar en la prospección como una carga manual que interfiere con tu talento. 
+              Aurellis organiza tu adquisición de clientes con elegancia técnica, mientras tú 
+              te enfocas en entregar resultados extraordinarios.
             </p>
             <div className="pt-6">
               <Button size="lg" variant="default" className="bg-background text-foreground hover:bg-card">
-                Calcular mi ROI potencial
+                Explorar el flujo comercial
               </Button>
             </div>
           </div>

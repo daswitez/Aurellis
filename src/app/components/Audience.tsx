@@ -6,18 +6,18 @@ import { Users, Building2, Globe2 } from "lucide-react";
 const profiles = [
   {
     icon: Users,
-    title: "Freelancers",
-    description: "Profesionales independientes que buscan automatizar su prospección y organizar su cartera de clientes de manera refinada."
-  },
-  {
-    icon: Building2,
-    title: "Pequeñas agencias",
-    description: "Equipos reducidos que necesitan operar con herramientas de nivel profesional sin departamento comercial completo."
+    title: "Consultores y Coaches",
+    description: "Automatizan acercamientos B2B hiper-personalizados, manteniendo el estatus de su firma sin caer en tácticas invasivas."
   },
   {
     icon: Globe2,
-    title: "Emprendedores",
-    description: "Fundadores que quieren construir un sistema comercial escalable desde el inicio sin depender de procesos manuales."
+    title: "Creativos y Estudios",
+    description: "Diseñadores y productores que necesitan un sistema operando en segundo plano para no interrumpir su trabajo creativo."
+  },
+  {
+    icon: Building2,
+    title: "Agencias Boutique",
+    description: "Estrategas de marketing y PR que buscan escalar su prospección de manera curada, cerrando clientes corporativos estructuradamente."
   }
 ];
 
@@ -67,12 +67,12 @@ export function Audience() {
     <section ref={containerRef} className="px-8 md:px-16 lg:px-24 py-32 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="aud-header opacity-0 text-center space-y-6 mb-24 max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl text-foreground tracking-tight">
-            Para profesionales con criterio
+          <h2 className="text-4xl md:text-5xl text-foreground tracking-tight font-serif">
+            Solo para firmas que priorizan su criterio
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Diseñado para quienes trabajan de forma independiente y quieren
-            herramientas que reflejen su nivel de exigencia.
+            Aurellis no es una herramienta para enviar spam masivo. Es una 
+            plataforma estructurada para quienes operan con un servicio premium B2B.
           </p>
         </div>
 

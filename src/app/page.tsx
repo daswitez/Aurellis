@@ -2,6 +2,7 @@
 
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { Storytelling } from "./components/Storytelling";
 import { Capabilities } from "./components/Capabilities";
 import { ValueProps } from "./components/ValueProps";
 import { Process } from "./components/Process";
@@ -17,6 +18,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <Storytelling />
         <Capabilities />
         <ValueProps />
         <Process />

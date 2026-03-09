@@ -68,8 +68,8 @@ export function Hero() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              El sistema de automatización comercial que transforma información pública
-              en oportunidades cualificadas mientras tú te enfocas en tu trabajo.
+              Sistema de automatización comercial B2B para firmas exigentes. 
+              Identificación silenciosa de oportunidades mientras tú te enfocas en tu *deep work*.
             </p>
           </div>
 
@@ -84,20 +84,21 @@ export function Hero() {
             </Button>
           </div>
 
-          <div className="hero-element pt-12 flex flex-wrap justify-center items-center gap-x-12 gap-y-4 text-sm text-muted-foreground opacity-0">
+          <div className="hero-element pt-8 pb-16 flex flex-wrap justify-center items-center gap-x-12 gap-y-4 text-sm text-muted-foreground opacity-0">
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 rounded-full bg-accent/80" />
-              <span>Prospección automática 24/7</span>
+              <span>Prospección curada sin código</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 rounded-full bg-accent/80" />
-              <span>Base de datos curada en tiempo real</span>
+              <span>Contacto B2B hiper-personalizado con IA</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 rounded-full bg-accent/80" />
-              <span>Pipeline completo automatizado</span>
+              <span>Gestión de pipeline silenciosa</span>
             </div>
           </div>
+
         </div>
       </div>
     </section>

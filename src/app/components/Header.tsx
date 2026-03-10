@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 export function Header() {
@@ -50,12 +51,14 @@ export function Header() {
 
           {/* CTA */}
           <div className="flex items-center gap-5">
-            <button className="hidden sm:block text-foreground hover:text-accent transition-colors font-medium">
+            <Link href="/platform" className="hidden sm:block text-foreground hover:text-accent transition-colors font-medium">
               Acceder
-            </button>
-            <Button size="default">
-              Comenzar ahora
-            </Button>
+            </Link>
+            <Link href="/platform">
+              <Button size="default">
+                Comenzar ahora
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
